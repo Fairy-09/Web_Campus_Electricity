@@ -1,0 +1,59 @@
+body{
+    color:#555;
+    font-size: 18px;
+    /*background-repeat: no-repeat;*/
+    background-image: url(../images/8.jpg);
+    background-size: cover;
+}
+.SignIn{
+    width: 400px;
+    height: 260px;
+    padding-top: 45px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -150px;
+    /*border: 2px solid #BAA89A;*/
+    text-align: center;
+    background-color: #fff;
+    opacity:0.9;
+}
+#t{
+    margin-top: -5px;
+    font-size: 22px;
+    color: #1B282E;
+}
+a{
+    text-decoration: none;
+    color:#6242B2;
+}
+.SignInControl{
+    padding-top: 3px;
+    font-size: 14px;
+}
+#regist{
+    font-size: 12px;
+}
+#in{
+    width:200px;
+    height: 22px;
+    font-size: 15px;
+    margin-left: 3px;
+    border: 1px solid #aaa;
+}
+.fg{
+    margin-left: 32px;
+}
+.sub{
+    color: #fff;
+    font-size: 16px;
+    width: 70px;
+    height:30px;
+    border-radius: 15px;
+    background-color: #91A3AA;
+    border:1px solid #91A3AA;
+    letter-spacing: 8px;
+    padding-left: 14px;
+    margin-left: -12px;
+}

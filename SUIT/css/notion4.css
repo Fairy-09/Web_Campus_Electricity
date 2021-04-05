@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 14px;
+}
+.head{
+    height: 100px;
+    text-align: center;
+    /*width: 1280px;*/
+    height: 100px;
+    position:relative;
+    border-bottom: 5px solid #465540;
+}
+.foot{
+    background-color: #eee;
+    text-align: center;
+    height: 100px;
+    padding-top: 10px;
+}
+.foot p{
+    margin: 8px;
+}
+.middle{
+    background-image: url(../images/1.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    color:#fff;
+}
+.logo{
+    position:absolute;
+    margin:10px;
+    left: 170px;
+}
+.head h1{
+    color: #465540;
+    /*display: inline-block;*/
+    /*overflow: hidden;*/
+    left:460px;
+    letter-spacing: 0.3em;
+    position:absolute;
+    margin-top: 30px;
+    font-size: 34px;
+}
+.s{
+    position:absolute;
+    right: 100px;
+    bottom: 35px;
+}
+.s a{
+    color:#aaa;
+}
+.user{
+    position:absolute;
+    right:35px;
+    bottom:30px;
+}
+.notion{
+    color:#fff;
+    font-size: 18px;
+}
+.clearfloat{
+    clear:both;
+}
+.notion h1{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 40px;
+}                               
+.notion p{
+    padding-left: 500px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-indent: 2em;
+    font-size: 20px;
+}

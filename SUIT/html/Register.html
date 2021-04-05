@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta http-equiv="x-ua-compatible" content="ie=edge">
+     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"/> 
+     <!-- 使当前viewport的宽度等于设备的宽度，同时不允许用户手动缩放。width：layout viewport的宽度，initial-scale：页面初始缩放值，maximum-scale：允许用户最大缩放值，user-scalable：是否允许用户进行缩放 -->
+    <title>立即注册</title>
+    <link rel="stylesheet" href="../css/Register.css">
+</head>
+<body>
+    <div class="R">
+    <form action="http://localhost/SUIT/php/Register.php" method="post" name='RNfrm' onsubmit="return Register();">
+        <p id="t">校园电网</p>
+        <p>
+            <label>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名
+                <input type="text" name="s_name" placeholder="Username" id="in" />
+            </label>
+        </p>
+        <p>
+            <label>学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;号
+                <input type="text" name="s_id" placeholder="Student number" id="in">
+            </label>
+        </p>
+        <p>
+            <label>寝&nbsp;&nbsp;室&nbsp;&nbsp;号
+                <input type="text" name="d_id" placeholder="Dormitory number" id="in">
+            </label>
+        </p>
+        <p>
+            <label>联系电话
+                <input type="text" name="tel" placeholder="Telephone number" id="in">
+            </label>
+        </p>
+        <p>
+            <label>密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码
+                <input type="text" name="pwd" placeholder="Password" id="in"/>
+            </label>
+        </p>
+        <p>
+            <label>确认密码
+                 <input type="text" name="re_pwd" placeholder="Confirm password"id="in"/>
+            </label>
+        </p>
+        <input type="submit" value="注册" class="sub">
+        <span>已有账号，<a href="../php/signIn.php">去登录</a></span>
+    </form>
+    </div>
+    <script src="../js/Register.js"></script>
+</body>
+</html>
+
