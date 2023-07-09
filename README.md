@@ -1,5 +1,5 @@
 # Web_Campus_Electricity
-A web procedure for campus power management and operation.  Established by wamp. The code uses HTML,CSS,JAVASCRIPT,PHP and SQL.  
+A website for campus electricity management. Based on Wamp. Created by HTML, CSS, JAVASCRIPT, PHP and SQL.  
 1、主要功能  
 一个校园电费缴纳系统，该系统的用户分别是：学生和电费管理员。不同的用户拥有不同的权限，各自完成各自的管理功能，不同的用户看到不同的系统功能。  
 学生的主要功能模块包括：  
@@ -16,8 +16,8 @@ A web procedure for campus power management and operation.  Established by wamp.
  主要字段有：学生学号(s_id)、寝室号(d_id)、收费时间(fee_time)、本次所缴电费(fee)、剩余电费(remain_fee)、备注(remark)等  
 （3）管理员信息表（自定）  
 3、实现效果  
-（1）让大家爱上网上缴费，让互联网改变生活。  
-（2）增加缴费网站的功能，争取做好做全，满足广大高校的需求，使缴费工作在网站上就能完成，这样不仅方便快捷，而且出错率低，大大增加了电费缴纳的效率。  
-（3）使用html5+css3+js+php+mysql这一技术来开发校园缴费网站，可以使校园缴费网站外观赏心悦目，提高用户体验，可以削减同学们对网上缴费的抵触心理，而且该方法开发效率高，耦合性低，维护成本低。并写好大量注释，有利于代码的维护和合作，提高开发和维护效率。  
-（4）该网站布局合理，功能界面简洁大气，同时功能全面，分类合理，用户交互能力强，用户体验高，即使是对电脑不熟悉的学生也能快速上手，并且系统稳定，不会发生数据丢失之类的情况，最大限度的给使用者提供了界面友好，安全流畅的缴费环境。安全程度高，代码中有防跨站脚本攻击、SQL注入、防跳墙等。  
+（1）实现足不出户网上缴费，无需下增，登录即可使用，让互联网提高办事效率。  
+（2）满足部分高校的电费缴纳需求，方便快捷，出错率低。  
+（3）使用html5+css3+js+php+mysql的技术开发校园缴费网站，提高交互体验感，优化页面设计，提高用户体验，开发效率高，耦合性低，维护成本低。代码中包含大量注释，利于代码的后期运营及维护。  
+（4）该网站布局合理，功能全面，即使是对电脑不熟悉的学生也能快速上手。系统稳定，减少数据丢失情况。安全程度高，代码中有防跨站脚本攻击、SQL注入、防跳墙等。  
 
